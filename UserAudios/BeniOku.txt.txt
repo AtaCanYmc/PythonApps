@@ -1,0 +1,5 @@
+Program aracılığıyla üretilen ses dosyaları mp.3 formatında olarak burada oluşacaktır.
+
+Bu klasörü silmek programın çalışmasını etkileyecektir.Önerilmez.
+
+-ACY
