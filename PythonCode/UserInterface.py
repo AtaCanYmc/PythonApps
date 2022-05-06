@@ -122,7 +122,7 @@ def homeWindow():
     LinkedIn = Button(Me, text= "My LinkedIn",fg="white", bg="blue", pady =25, padx = 25 ,command = lambda:browser.openURL("https://tr.linkedin.com/in/ata-can-yaymac%C4%B1"))
     LinkedIn.grid(row=0,column=1,columnspan=1,rowspan=1, pady=7,padx=5) 
 
-    Github = Button(Me, text= " My Github ", fg="white", bg="black", pady =25, padx = 25 ,command = lambda:browser.openURL("github.com"))
+    Github = Button(Me, text= " My Github ", fg="white", bg="black", pady =25, padx = 25 ,command = lambda:browser.openURL("https://github.com/AtaCanYmc"))
     Github.grid(row=0,column=2,columnspan=1,rowspan=1, pady=7,padx=5) 
 
     email = Button(Me, text= " My Email  ", bg="white", pady =25, padx = 25 ,command = lambda:browser.openURL("mailto:atacanymc@gmail.com"))
@@ -133,8 +133,8 @@ def rootWindow():
     root = Tk()
     root.geometry("600x500")
     root.title("Sound Generator")
-    root.iconbitmap(generalPath+"ProgramUsage\images\SD_logo.ico")
-    acy = PhotoImage(file= generalPath+"/ProgramUsage\images\Acy.png")
+    root.iconbitmap(generalPath+"/ProgramUsage/images/SD_logo.ico")
+    acy = PhotoImage(file= generalPath+"/ProgramUsage/images/Acy.png")
     mainBoard = ttk.Notebook(root)
     mainBoard.pack()
 
